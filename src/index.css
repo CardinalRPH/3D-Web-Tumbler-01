@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-matcha-light: #E8EFE0;
+  --color-matcha-base: #C3D8A3;
+  --color-matcha-dark: #1C3A1E;
+  --color-matcha-accent: #2D582A;
+
+  --animate-marquee: marquee 15s linear infinite;
+
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #E8EFE0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
